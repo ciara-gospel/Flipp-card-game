@@ -90,7 +90,6 @@ button {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.1s;
   margin-top: 2rem;
-
 }
 
 button:hover {

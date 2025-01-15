@@ -35,8 +35,7 @@ function checkMatch () {
     matchedpairs++
 
     if (matchedpairs === cards.length / 2) {
-             setTimeout(() => {
-      gameFeedback.textContent = 'Congratilation🎊 you won the game🥳'})
+      setTimeout(() => {gameFeedback.textContent = 'Congratilation🎊 you won the game🥳' })
     }
   } else {
     card1.classList.remove('flipped')
